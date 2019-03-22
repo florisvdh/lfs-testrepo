@@ -2,7 +2,7 @@
 
 This repo is for personal testing with git and LFS.
 
-Having committed both from a local repo _with_ LFS installed (1) and drom another local repo (for the same remote) _without_ LFS installed (2), my conclusion is that both repos MUST have LFS installed to successfully track and commit large files.
+Having committed both from a local repo _with_ LFS installed (1) and from another local repo (for the same remote) _without_ LFS installed (2), my conclusion is that both repos MUST have LFS installed to successfully track and commit large files.
 
 - it seems that repo 2 is able to update an LFS-file (already pushed to the remote from repo 1), without LFS-versioning for this file, both in repo 2 **and on github**!
 It would have been better if github just refused such an upload, and expects an LFS-pointer for this file.
